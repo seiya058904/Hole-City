@@ -5,9 +5,9 @@
 <p align="center">从街边小物，到整片城市。<br>移动你的黑洞，找到成长路线，让世界一点点落入洞口。</p>
 
 <p align="center">
-  <a href="https://seiya058904.github.io/hole-web/"><strong>▶ 打开浏览器游玩</strong></a>
+  <a href="https://seiya058904.github.io/Hole-City/"><strong>▶ 打开浏览器游玩</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/seiya058904/hole-web/releases/latest">⬇ 下载发行包</a>
+  <a href="https://github.com/seiya058904/Hole-City/releases/latest">⬇ 下载发行包</a>
   &nbsp;·&nbsp;
   <a href="#怎么玩">🎮 操作说明</a>
 </p>
