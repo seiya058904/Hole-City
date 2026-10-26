@@ -135,4 +135,52 @@ Extract the archive and serve the files from a local HTTP server or any static w
 python -m http.server 8000
 ```
 
-Then open **http://localhost:8000
+Then open **http://localhost:8000/**. On Windows, `py -m http.server 8000` is an alternative if the Python launcher is installed.
+
+Opening `index.html` directly using a `file://` URL is **not a supported deployment method**: browser restrictions can prevent the game's modules and assets from loading correctly. Preserve the directory structure when hosting.
+
+### 💾 Your progress stays local
+
+The game stores its progress and settings in the current browser's site storage. That means:
+
+- A different browser, profile, or site address does **not** automatically share your progress.
+- Clearing site data can remove your unlocks and saved Endless progression.
+- Offline earnings in Endless mode are a **game progression feature**, not a promise that the entire site can be opened for the first time without a network connection.
+
+<a id="inside-the-distribution"></a>
+## ⚙️ Inside This Repository
+
+This repository publishes the **built, playable web edition**, not the original development workspace.
+
+| Path | What it contains |
+| --- | --- |
+| [`index.html`](index.html) | Browser entry point |
+| [`assets/`](assets/) | Bundled game code, styles, models, textures, and audio |
+| [`assets/manifest.json`](assets/manifest.json) | Runtime asset references |
+| [`config/balance.json`](config/balance.json) | Shipped gameplay configuration |
+| [`version.json`](version.json) | Build version and runtime file hashes |
+| [`checksums.sha256`](checksums.sha256) | Distribution file checksums |
+| [`media/`](media/) | Actual gameplay and world screenshots |
+| [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) | Third-party notices and rights information |
+
+<details>
+<summary><strong>🔧 What is not included?</strong></summary>
+
+The original TypeScript/C# development sources, raw asset workspace, automated tests, and internal development reports are **not included in this distribution**. The JavaScript shipped here is bundled and minified. That is a packaging choice, not encryption or a guarantee against extraction.
+
+There is no repository-level source build command or test suite to run from this checkout. To develop or audit the game's underlying source, the original development project would be required.
+
+</details>
+
+## 📜 Credits & Rights
+
+Hole City is a browser game project with third-party runtime components and game assets. The included Three.js notice is preserved in **[Third-party Notices](THIRD_PARTY_NOTICES.md)**.
+
+This public repository does **not** declare a blanket open-source license for the game, its artwork, models, audio, or other third-party materials. Availability for download does not automatically grant reuse or redistribution rights.
+
+---
+
+<p align="center">
+  <sub>START SMALL. THINK BIGGER. SWALLOW THE WORLD.</sub><br>
+  <sub>Hole City · Four ways to play, sixteen worlds to explore.</sub>
+</p>
