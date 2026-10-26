@@ -1,6 +1,12 @@
 <h1 align="center">🌀 HOLE CITY</h1>
 
 <p align="center">
+  <a href="https://seiya058904.github.io/Hole-City/"><img src="media/readme-hero.svg" width="100%" alt="Illustrated Hole City cover with pastel low-poly buildings pulled into a glowing circular hole" /></a>
+  <br>
+  <sub>ORIGINAL VECTOR COVER ART · REAL IN-GAME SCREENSHOTS BELOW</sub>
+</p>
+
+<p align="center">
   <strong>Start small. Swallow a world.</strong>
 </p>
 
@@ -17,6 +23,8 @@
   <a href="#choose-your-mode">🎮 Game Modes</a>
   &nbsp;·&nbsp;
   <a href="#explore-the-worlds">🌍 Explore Worlds</a>
+  &nbsp;·&nbsp;
+  <a href="#how-you-grow">🌱 Progression</a>
   &nbsp;·&nbsp;
   <a href="#play-and-controls">⌨️ Controls</a>
 </p>
@@ -96,6 +104,21 @@ From everyday streets to impossible landscapes, each setting changes what you se
 
 The hole's opening, an object's shape, and where that object is supported all matter. A car may tip and fall before a large building becomes swallowable; a bigger opening lets you go after targets that were previously out of reach. Skins change how your hole looks, not its core gameplay properties.
 
+<a id="how-you-grow"></a>
+## 🍬 Small Beginnings, Bigger Possibilities
+
+Growth changes what the world offers. Targets that did not fit a moment ago can become your next opportunity.
+
+| Stage | What to look for | What changes |
+| --- | --- | --- |
+| **Start small** | Street furniture and the smallest objects | Build size and open up new routes. |
+| **Pick up momentum** | Larger props and vehicles | The environment becomes more valuable, and rival holes matter more. |
+| **Change the skyline** | Structures and entire sections of the city | Your available targets and movement choices expand. |
+
+This describes the **progression concept**, not an exact order of swallowable objects. Geometry, opening size and support conditions determine what fits in each encounter.
+
+<p align="center"><code>FIND YOUR FIRST TARGET &nbsp;→&nbsp; GROW &nbsp;→&nbsp; CHANGE YOUR ROUTE &nbsp;→&nbsp; AIM BIGGER</code></p>
+
 <a id="play-and-controls"></a>
 ## 🕹️ Play & Controls
 
@@ -115,6 +138,13 @@ The hole's opening, an object's shape, and where that object is supported all ma
 
 > [!NOTE]
 > The **in-game interface is in Simplified Chinese**; this README is in English. Use a modern **WebGL 2-capable browser**. Audio starts after your first interaction, and performance on phones depends on the device and selected quality setting.
+
+## 💡 Tips for Your First Run
+
+- **Start with clusters of small objects.** Early growth is the key to accessing larger targets.
+- **Watch the shape, not just the size.** Supported or awkwardly positioned objects may need a different approach.
+- **Match your strategy to your mode.** Classic is a score race, Speedrun is a clearing challenge, Battle Royale prioritizes survival, and Endless favors long-term growth.
+- **Adjust quality when needed.** The Performance setting can make the 3D worlds more manageable on weaker hardware.
 
 <a id="get-started"></a>
 ## 🚀 Play Online or Host It Yourself
@@ -169,6 +199,36 @@ This repository publishes the **built, playable web edition**, not the original 
 The original TypeScript/C# development sources, raw asset workspace, automated tests, and internal development reports are **not included in this distribution**. The JavaScript shipped here is bundled and minified. That is a packaging choice, not encryption or a guarantee against extraction.
 
 There is no repository-level source build command or test suite to run from this checkout. To develop or audit the game's underlying source, the original development project would be required.
+
+</details>
+
+## ❓ Frequently Asked Questions
+
+<details>
+<summary><strong>Is Hole City multiplayer?</strong></summary>
+
+This browser edition is **single-player**. Competitive modes use AI-controlled opponents; no online matchmaking or account server is included.
+
+</details>
+
+<details>
+<summary><strong>Can I play it on Android or a tablet?</strong></summary>
+
+The controls include touch, and the game targets WebGL 2-capable browsers. Performance varies with the device, browser and quality setting. Compatibility across every phone has not been certified.
+
+</details>
+
+<details>
+<summary><strong>Will Endless progress move between browsers?</strong></summary>
+
+No. There is no cloud sync. Progress is stored locally by the browser and origin; clearing site data can delete it.
+
+</details>
+
+<details>
+<summary><strong>Can I rebuild the game from this repository?</strong></summary>
+
+You can serve the **compiled browser distribution**, but this repository does not include the original development source, asset authoring workspace or automated build and test suite.
 
 </details>
 
