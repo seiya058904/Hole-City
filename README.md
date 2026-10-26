@@ -1,58 +1,138 @@
 <h1 align="center">🌀 HOLE CITY</h1>
 
-<p align="center"><strong>Start small. Swallow a world.</strong></p>
-
-<p align="center">从街边小物，到整片城市。<br>移动你的黑洞，找到成长路线，让世界一点点落入洞口。</p>
-
 <p align="center">
-  <a href="https://seiya058904.github.io/Hole-City/"><strong>▶ 打开浏览器游玩</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/seiya058904/Hole-City/releases/latest">⬇ 下载发行包</a>
-  &nbsp;·&nbsp;
-  <a href="#怎么玩">🎮 操作说明</a>
+  <strong>Start small. Swallow a world.</strong>
 </p>
 
-<p align="center"><sub>16 张地图 &nbsp;·&nbsp; 4 种模式 &nbsp;·&nbsp; 106 款免费皮肤 &nbsp;·&nbsp; 本地进度</sub></p>
+<p align="center">
+  A colorful 3D browser game about growing from a tiny hole into a city-sized force.<br>
+  Hunt for what fits, outgrow your rivals, and watch the world fall away beneath you.
+</p>
 
-![Hole City — 游戏实景](media/gameplay.jpg)
+<p align="center">
+  <a href="https://seiya058904.github.io/Hole-City/"><strong>▶ Play in Your Browser</strong></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/seiya058904/Hole-City/releases/latest">⬇ Download v1.0.0</a>
+  &nbsp;·&nbsp;
+  <a href="#choose-your-mode">🎮 Game Modes</a>
+  &nbsp;·&nbsp;
+  <a href="#explore-the-worlds">🌍 Explore Worlds</a>
+  &nbsp;·&nbsp;
+  <a href="#play-and-controls">⌨️ Controls</a>
+</p>
 
-## 选择你的挑战
+<p align="center">
+  <sub>16 PLAYABLE WORLDS &nbsp;·&nbsp; 4 GAME MODES &nbsp;·&nbsp; 106 COSMETIC SKINS &nbsp;·&nbsp; LOCAL PROGRESS</sub>
+</p>
 
-| 模式 | 这一局怎么玩 |
+<p align="center">
+  <img src="media/gameplay.jpg" width="900" alt="Actual Hole City gameplay: a small glowing hole in a low-poly city, with a match timer and seven-player leaderboard" />
+  <br>
+  <sub>ACTUAL BROWSER GAMEPLAY · CHINESE-LANGUAGE INTERFACE</sub>
+</p>
+
+---
+
+> **A bigger hole changes everything.**
+>
+> Start with street furniture and tiny objects. As your hole grows, vehicles and eventually whole buildings become possible targets. Every swallowed object opens up a new route through the map.
+
+<a id="choose-your-mode"></a>
+## 🎮 Four Ways to Play
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⏱️ Classic — The Two-Minute Race</h3>
+      <p><sub>120 SECONDS · YOU + 6 AI RIVALS</sub></p>
+      <p>Compete for the top of the leaderboard. Find an efficient eating route, grow faster than the other holes, and take the lead before time runs out. A dominant run can end early.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧹 Speedrun — Clear the Map</h3>
+      <p><sub>600 SECONDS · SOLO CHALLENGE</sub></p>
+      <p>No rivals to chase. Consume the map as thoroughly as you can before the timer expires. Completion is measured by the value of the objects removed.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏆 Battle Royale — Last Hole Standing</h3>
+      <p><sub>20 HOLES · ELIMINATION</sub></p>
+      <p>Size becomes survival. Swallow smaller opponents, avoid larger threats, and stay in the game until only one contender remains.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>♾️ Endless — Keep Growing</h3>
+      <p><sub>STAGES · UPGRADES · LOCAL PROGRESSION</sub></p>
+      <p>Move through successive growth stages, collect rewards, and improve your hole. Each world tracks its own progress, with bounded offline earnings.</p>
+    </td>
+  </tr>
+</table>
+
+<a id="explore-the-worlds"></a>
+## 🌍 Sixteen Worlds, One Hungry Hole
+
+From everyday streets to impossible landscapes, each setting changes what you see and what you can swallow.
+
+<p align="center">
+  <img src="media/worlds.jpg" width="900" alt="Four real Hole City scenes showing an East Asian garden, a reddish sci-fi landscape, ancient ruins, and a snowy environment" />
+  <br>
+  <sub>FOUR OF THE AVAILABLE ENVIRONMENTS · IN-GAME CAPTURES</sub>
+</p>
+
+<details>
+<summary><strong>🗺️ Explore the complete world lineup</strong></summary>
+
+| | | |
+| --- | --- | --- |
+| Modern City | Japanese Garden | Pirate Harbor |
+| Rural Village | Western Town | Office Campus |
+| Shopping Mall | Sci-Fi City | Mars Base |
+| Military Camp | Ancient Ruins | Wasteland |
+| Egyptian Ruins | Construction Site | Jurassic World |
+| Winter Village | | |
+
+</details>
+
+### 📐 It's not just about your level
+
+The hole's opening, an object's shape, and where that object is supported all matter. A car may tip and fall before a large building becomes swallowable; a bigger opening lets you go after targets that were previously out of reach. Skins change how your hole looks, not its core gameplay properties.
+
+<a id="play-and-controls"></a>
+## 🕹️ Play & Controls
+
+<p align="center"><code>FIND SMALL OBJECTS &nbsp;→&nbsp; GROW &nbsp;→&nbsp; SWALLOW BIGGER TARGETS &nbsp;→&nbsp; REPEAT</code></p>
+
+1. **Pick a world and mode.** Start a quick contest, clear a map, survive an elimination match, or continue an Endless run.
+2. **Move through the environment.** Aim for targets your current hole can accommodate; the opening and objects' shapes affect what falls in.
+3. **Grow into new opportunities.** Work up from roadside objects to vehicles and structures, or look for smaller rival holes in competitive modes.
+4. **Finish or keep building.** Chase the leaderboard, clear the remaining objects, survive the field, or progress through Endless stages.
+
+| Input | Action |
 | --- | --- |
-| ⏱ 经典计时 | 与六个 AI 竞争，在 120 秒内成长、吞噬、争夺第一；满足统治条件可提前结束。 |
-| 🧹 清图竞速 | 一个人清理整张地图。限时 600 秒，完成度按物件分值累计，清完立即结算。 |
-| 🏆 生存淘汰 | 20 个洞参加淘汰赛，吞噬比自己小的对手，坚持到最后。 |
-| ♾ 无尽成长 | 收集、领取阶段奖励、升级洞口。各地图独立保存阶段，并提供离线收益。 |
+| **Mouse / touch** | Press and drag to move; release to stop |
+| **Keyboard** | WASD or arrow keys to move |
+| **Esc** | Pause |
+| **Settings** | Adjust sound, switch between High Quality and Performance, and reduce motion |
 
-## 去哪里吞？
+> [!NOTE]
+> The **in-game interface is in Simplified Chinese**; this README is in English. Use a modern **WebGL 2-capable browser**. Audio starts after your first interaction, and performance on phones depends on the device and selected quality setting.
 
-现代城市、日本庭院、海盗港湾、田园村庄、西部小镇、办公园区、购物中心、科幻都市、火星基地、军事营地、古代遗迹、末日废土、埃及遗迹、建筑工地、侏罗纪世界、冬日村庄。
+<a id="get-started"></a>
+## 🚀 Play Online or Host It Yourself
 
-![不同主题的游戏场景](media/worlds.jpg)
+### 🌐 Play online
 
-每张地图都有三维可吞物件。洞口尺寸、物体形状和支撑位置共同影响坠落：车辆可能先倾倒，大楼需要更大的洞口。皮肤只改变外观。
+**[Launch Hole City →](https://seiya058904.github.io/Hole-City/)**
 
-## 怎么玩
+No account or installation is needed for the hosted browser edition. The game does not connect to the original advertising, payment, or online leaderboard services.
 
-| 输入 | 操作 |
-| --- | --- |
-| 鼠标 / 触屏 | 按住画面拖动，松开刹停 |
-| 键盘 | WASD 或方向键移动，Esc 暂停 |
-| 设置 | 调节音量、切换高画质 / 流畅、减弱动态效果 |
+### 📦 Download the browser distribution
 
-先吞路边的小物件，再挑战更大的目标。地图选择窗口的确认区固定显示，选好后即可开始。
+Get the **[v1.0.0 browser ZIP from GitHub Releases](https://github.com/seiya058904/Hole-City/releases/tag/v1.0.0)**. The release also provides a SHA-256 checksum for the ZIP.
 
-游戏界面为中文。支持 WebGL 2 的现代浏览器；音频在首次交互后启动。移动设备可选择流畅画质，实际表现取决于设备。
+Extract the archive and serve the files from a local HTTP server or any static web host. For example, with Python 3 installed, open a terminal in the extracted directory:
 
-## 下载与进度
+```sh
+python -m http.server 8000
+```
 
-- 推荐使用上方在线入口。发行 ZIP 可解压部署到静态 Web 服务器；直接双击 `index.html` 不保证浏览器允许资源读取。
-- 进度保存在当前浏览器的网站存储中。清除网站数据、切换浏览器或更换域名不会自动迁移存档。
-- 游戏不要求登录，不连接原广告、支付或联网排行榜服务。
-
-## 关于这个仓库
-
-这里仅提供**构建后的浏览器发行版本**：运行脚本、必要资源、介绍与部署文件。开发工程、TypeScript / C# 源文件、原始素材库、测试和内部审计资料不在本仓库中。
-
-运行文件经过构建压缩；这不表示加密或防提取。第三方组件与素材的权利归各自权利人，详见 [第三方声明](THIRD_PARTY_NOTICES.md)。
+Then open **http://localhost:8000
