@@ -1,26 +1,66 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
-  <title id="title">Hole City</title>
-  <desc id="desc">An original illustration of a circular hole amid colorful city blocks.</desc>
-  <rect width="1200" height="320" fill="#fff2df"/>
-  <path d="M0 274h550" stroke="#dfbca8" stroke-width="2"/>
-  <circle cx="86" cy="72" r="11" fill="#ff8d70"/><circle cx="120" cy="72" r="11" fill="#92cdb0"/><circle cx="154" cy="72" r="11" fill="#e9b561"/>
-  <text x="66" y="190" fill="#261c50" font-family="Arial, Helvetica, sans-serif" font-size="74" font-weight="800" letter-spacing="-3">HOLE CITY</text>
-  <path d="M68 219h188" stroke="#261c50" stroke-width="6"/>
-  <g transform="translate(580 0)">
-    <path d="M25 0h530l65 65v255H89L0 231V27z" fill="#e9d3b9"/>
-    <path d="M0 85h620v44H0zm0 108h620v45H0z" fill="#fff2df"/>
-    <path d="M129 0h48v320h-48zm318 0h48v320h-48z" fill="#fff2df"/>
-    <path d="M15 22h94v48H15z" fill="#92cdb0"/><path d="M22 29h80v34H22z" fill="#77b89a"/>
-    <path d="M201 18h84v58h-84z" fill="#ff8d70"/><path d="M213 29h60v11h-60zm0 19h60v11h-60z" fill="#ffe4c8"/>
-    <path d="M510 18h91v53h-91z" fill="#e9b561"/><path d="M523 28h65v34h-65z" fill="#ffe1aa"/>
-    <path d="M21 254h87v47H21z" fill="#e9b561"/><path d="M32 264h64v26H32z" fill="#ffe2a9"/>
-    <path d="M511 252h87v47h-87z" fill="#92cdb0"/><path d="M525 264h59v24h-59z" fill="#d5efce"/>
-    <circle cx="316" cy="162" r="109" fill="#ff8d70"/>
-    <circle cx="316" cy="162" r="94" fill="#261c50"/>
-    <circle cx="316" cy="162" r="75" fill="#392b6e"/>
-    <ellipse cx="316" cy="171" rx="55" ry="34" fill="#261c50"/>
-    <path d="M254 130l24-24 35 19-25 25z" fill="#e9b561"/><path d="M254 130v25l34 19v-24z" fill="#c78846"/><path d="M288 150l25-25v24l-25 25z" fill="#b97742"/>
-    <path d="M363 188l21-20 26 14-21 20z" fill="#92cdb0"/><path d="M363 188v19l26 14v-19z" fill="#70ad91"/><path d="M389 202l21-20v19l-21 20z" fill="#4f9278"/>
-    <circle cx="217" cy="162" r="6" fill="#fff2df"/><circle cx="410" cy="162" r="6" fill="#fff2df"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="600" viewBox="0 0 1600 600" role="img" aria-labelledby="title description">
+<title id="title">Hole City — swallow the world</title>
+<desc id="description">Original illustrative cover: low-poly city buildings, a luminous circular hole, flowing debris, and arcade typography. This is not a gameplay screenshot.</desc>
+<defs>
+<linearGradient id="sky" x2="1" y2="1"><stop stop-color="#161A38"/><stop offset=".56" stop-color="#302B68"/><stop offset="1" stop-color="#19596A"/></linearGradient>
+<radialGradient id="aura"><stop stop-color="#F070C8" stop-opacity=".4"/><stop offset=".65" stop-color="#8062FF" stop-opacity=".12"/><stop offset="1" stop-color="#8062FF" stop-opacity="0"/></radialGradient>
+<linearGradient id="rim"><stop stop-color="#64F6DB"/><stop offset=".55" stop-color="#FF80CF"/><stop offset="1" stop-color="#8F8AFF"/></linearGradient>
+<linearGradient id="letters"><stop stop-color="#77F9E3"/><stop offset="1" stop-color="#70BFFD"/></linearGradient>
+<pattern id="dots" width="34" height="34" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#FFF" opacity=".1"/></pattern>
+<filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1600" height="600" fill="url(#sky)"/>
+<rect width="1600" height="600" fill="url(#dots)"/>
+<circle cx="1248" cy="325" r="410" fill="url(#aura)"/>
+<path d="M0 538Q390 486 805 508T1600 523V600H0Z" fill="#0A233B" opacity=".38"/>
+<path d="M0 599H1600" stroke="#A2C0E8" stroke-opacity=".35" stroke-width="2"/>
+<g font-family="Segoe UI,Arial,sans-serif">
+<rect x="96" y="72" width="332" height="42" rx="21" fill="#47427B" stroke="#8379BD"/>
+<circle cx="120" cy="93" r="6" fill="#7CFCE2"/>
+<text x="139" y="100" font-size="18" font-weight="700" letter-spacing="2.5" fill="#EAE6FF">BROWSER ARCADE / 3D</text>
+<text x="88" y="269" font-size="151" font-weight="900" letter-spacing="-9" fill="#FFFAFF">HOLE</text>
+<text x="87" y="407" font-size="151" font-weight="900" letter-spacing="-8" fill="url(#letters)">CITY</text>
+<text x="100" y="456" font-size="30" font-weight="500" fill="#E7E2FF">Start small. Swallow a world.</text>
+<path d="M103 490H695" stroke="#9AA2C7" stroke-opacity=".45"/>
+<text x="103" y="535" font-size="18" font-weight="700" letter-spacing="2.8" fill="#B7C5E9">16 WORLDS</text>
+<circle cx="285" cy="528" r="4" fill="#85F5E7"/>
+<text x="305" y="535" font-size="18" font-weight="700" letter-spacing="2.8" fill="#B7C5E9">4 MODES</text>
+<circle cx="477" cy="528" r="4" fill="#85F5E7"/>
+<text x="498" y="535" font-size="18" font-weight="700" letter-spacing="2.8" fill="#B7C5E9">106 SKINS</text>
+</g>
+<!-- Isometric cityscape -->
+<g transform="rotate(-8 1018 302)">
+<path d="M935 238L1016 200 1098 240 1017 280Z" fill="#94F3E6"/>
+<path d="M935 238L1017 280V402L935 364Z" fill="#287A92"/>
+<path d="M1017 280L1098 240V361L1017 402Z" fill="#3CBCC5"/>
+<g fill="#D4FFF6" opacity=".75"><path d="M957 285l15 8v26l-15-7zM987 302l15 8v26l-15-8zM958 328l15 8v25l-15-7zM1040 304l25-12v25l-25 12zM1040 345l25-12v25l-25 12z"/></g>
+</g>
+<g transform="rotate(11 1190 220)">
+<path d="M1124 172L1194 141 1268 177 1197 210Z" fill="#FFC7C6"/>
+<path d="M1124 172L1197 210V315L1124 279Z" fill="#C85884"/>
+<path d="M1197 210L1268 177V279L1197 315Z" fill="#F57B9A"/>
+<path d="M1146 218l14 7v21l-14-8zM1171 232l14 7v21l-14-7zM1218 230l23-11v21l-23 11zM1218 266l23-11v21l-23 11z" fill="#FFE8DA" opacity=".74"/>
+</g>
+<g transform="rotate(14 1420 290)">
+<path d="M1353 258L1414 229 1496 265 1431 297Z" fill="#FFE5A0"/>
+<path d="M1353 258L1431 297V385L1353 347Z" fill="#D68E6B"/>
+<path d="M1431 297L1496 265V357L1431 385Z" fill="#FFC481"/>
+<path d="M1374 297l16 8v20l-16-8zM1400 309l16 8v20l-16-8zM1450 317l24-12v21l-24 12z" fill="#FFF7DE"/>
+</g>
+<g>
+<path d="M1242 297L1301 271 1360 301 1302 329Z" fill="#FFADD6"/>
+<path d="M1242 297L1302 329V382L1242 351Z" fill="#995AB1"/>
+<path d="M1302 329L1360 301V355L1302 382Z" fill="#D977B8"/>
+<path d="M1261 324l24 12v18l-24-12z" fill="#F7D7FA"/>
+</g>
+<!-- Swallowing hole: unmistakably symbolic artwork -->
+<ellipse cx="1254" cy="460" rx="275" ry="100" fill="#030816" opacity=".65" filter="url(#soft)"/>
+<ellipse cx="1255" cy="435" rx="254" ry="101" fill="#081022" stroke="url(#rim)" stroke-width="17"/>
+<ellipse cx="1255" cy="442" rx="215" ry="68" fill="#020715"/>
+<ellipse cx="1255" cy="443" rx="174" ry="45" fill="#00030A"/>
+<path d="M1035 423C1096 377 1332 356 1460 403" stroke="#C3FFEE" stroke-opacity=".78" stroke-width="5" fill="none" stroke-linecap="round"/>
+<path d="M1041 470C1125 522 1376 527 1470 474" stroke="#FCA2D9" stroke-opacity=".72" stroke-width="5" fill="none" stroke-linecap="round"/>
+<g stroke-linejoin="round"><path d="M950 387l25-10 24 11-26 11z" fill="#FEE59B"/><path d="M973 399v20l26-13v-18z" fill="#CDA669"/><path d="M1511 368l22-11 22 10-23 11z" fill="#BBFBE7"/><path d="M1532 378v19l23-12v-18z" fill="#67BBAE"/><path d="M1141 328l12-16 13 11-10 14z" fill="#FFC6DD"/><path d="M1482 341l14-18 17 11-15 21z" fill="#A7E9FC"/></g>
+<g fill="none" stroke="#F1D8FF" stroke-opacity=".52" stroke-width="3" stroke-linecap="round"><path d="M951 392Q1011 404 1058 432"/><path d="M1543 375Q1512 390 1470 412"/><path d="M1481 328Q1467 368 1436 386"/></g>
+<g font-family="Segoe UI,Arial,sans-serif"><rect x="1316" y="70" width="207" height="42" rx="21" fill="#29265C" stroke="#9B81D9"/><circle cx="1342" cy="91" r="6" fill="#83F8DF"/><text x="1361" y="98" font-size="17" letter-spacing="2" font-weight="700" fill="#EEE8FF">GROW &amp; GOBBLE</text></g>
 </svg>
