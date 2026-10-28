@@ -1,14 +1,14 @@
 {
-  "version": "1.0.0",
-  "build": "443255efac39eb09",
+  "version": "1.0.1",
+  "build": "1dfab2128d8abe42",
   "runtime": [
     {
-      "path": "assets/index-B6vT0JK9.css",
-      "sha256": "d6946ef2ac8740ddeb6dbaa9a53594acb602dabc3f43f96efa37519445cd14bf"
+      "path": "assets/index-B9-k9A-F.css",
+      "sha256": "91d0c812f527282fd7fa4c870788fffb89d499be9a1d7d71c5f3151cf37ab8da"
     },
     {
-      "path": "assets/index-Np9A8EjC.js",
-      "sha256": "186967efaaaaf3bb7195c801129c2b43979d0c347cdad3b99ae699ed268e1588"
+      "path": "assets/index-d63QpKDC.js",
+      "sha256": "12918da2ef192a7d5a5ad6347cf7f07cffa76a88e740321bcd378afe479952f2"
     },
     {
       "path": "assets/manifest.json",
@@ -1840,7 +1840,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "abd8d5bf4eb1fe476e48bd77603c5b0409614d2a603a408aa4c425ac603c7cb1"
+      "sha256": "d23c3367794389b0368af12d3bf3ce02ca1b4109edf47c77ea4b93c66d7bc1e8"
     }
   ]
 }
