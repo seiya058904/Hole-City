@@ -18,7 +18,7 @@
 <p align="center">
   <a href="https://seiya058904.github.io/Hole-City/"><strong>▶ Play in Your Browser</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/seiya058904/Hole-City/releases/latest">⬇ Download v1.0.0</a>
+  <a href="https://github.com/seiya058904/Hole-City/releases/latest">⬇ Download v1.0.1</a>
   &nbsp;·&nbsp;
   <a href="#choose-your-mode">🎮 Game Modes</a>
   &nbsp;·&nbsp;
@@ -157,15 +157,15 @@ No account or installation is needed for the hosted browser edition. The game do
 
 ### 📦 Download the browser distribution
 
-Get the **[v1.0.0 browser ZIP from GitHub Releases](https://github.com/seiya058904/Hole-City/releases/tag/v1.0.0)**. The release also provides a SHA-256 checksum for the ZIP.
+Get the **[v1.0.1 browser ZIP from GitHub Releases](https://github.com/seiya058904/Hole-City/releases/tag/v1.0.1)**. The release also provides a SHA-256 checksum for the ZIP.
 
 Extract the archive and serve the files from a local HTTP server or any static web host. For example, with Python 3 installed, open a terminal in the extracted directory:
 
 ```sh
-python -m http.server 8000
+python -m http.server 8000 --bind 127.0.0.1
 ```
 
-Then open **http://localhost:8000/**. On Windows, `py -m http.server 8000` is an alternative if the Python launcher is installed.
+Then open **http://localhost:8000/**. On Windows, `py -m http.server 8000 --bind 127.0.0.1` is an alternative if the Python launcher is installed.
 
 Opening `index.html` directly using a `file://` URL is **not a supported deployment method**: browser restrictions can prevent the game's modules and assets from loading correctly. Preserve the directory structure when hosting.
 
@@ -175,6 +175,7 @@ The game stores its progress and settings in the current browser's site storage.
 
 - A different browser, profile, or site address does **not** automatically share your progress.
 - Clearing site data can remove your unlocks and saved Endless progression.
+- If a save fails, a persistent warning offers **Retry Save** and **Export Current Progress**. Keep the page open until you have saved successfully or exported a recovery copy.
 - Offline earnings in Endless mode are a **game progression feature**, not a promise that the entire site can be opened for the first time without a network connection.
 
 <a id="inside-the-distribution"></a>
