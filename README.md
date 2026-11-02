@@ -245,3 +245,7 @@ This public repository does **not** declare a blanket open-source license for th
   <sub>START SMALL. THINK BIGGER. SWALLOW THE WORLD.</sub><br>
   <sub>Hole City · Four ways to play, sixteen worlds to explore.</sub>
 </p>
+
+## Website analytics
+
+The public website uses Cloudflare Web Analytics for aggregate page visits and performance. It loads only on `seiya058904.github.io`; local previews and offline copies do not load the beacon. The integration does not read game saves or form values. See [Cloudflare's privacy policy](https://www.cloudflare.com/privacypolicy/).
