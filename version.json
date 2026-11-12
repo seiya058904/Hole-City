@@ -1,14 +1,14 @@
 {
   "version": "1.0.0",
-  "build": "fbf08f14cb4302cf",
+  "build": "eee97b3660858543",
   "runtime": [
     {
-      "path": "assets/index-B9-k9A-F.css",
-      "sha256": "91d0c812f527282fd7fa4c870788fffb89d499be9a1d7d71c5f3151cf37ab8da"
+      "path": "assets/index-B4mWkCZ3.css",
+      "sha256": "0bdb0a85949f3e806bd43a9d7ea2ce0714c02ddd211407ef3a2a63aa68fc0f14"
     },
     {
-      "path": "assets/index-CjV-_KYq.js",
-      "sha256": "fbbabb09f2ba74ff9a1d2a35a9a99883c7792b2e36a95484a6089d985f678be6"
+      "path": "assets/index-QzTBXX9Z.js",
+      "sha256": "f90f6f18cf048ef79486bb6d63de938ccc5d634472f6be566a9696c02bbbef6e"
     },
     {
       "path": "assets/manifest.json",
@@ -1836,11 +1836,11 @@
     },
     {
       "path": "config/balance.json",
-      "sha256": "3b4fb3c4a598bcb59644790f4efad740da9bddc133f033b8b15ce8978aaa346e"
+      "sha256": "e5747bd5c83264ba852f84789607b8ac7c172a86f0c73e7f35352e8b850bebac"
     },
     {
       "path": "index.html",
-      "sha256": "61c62646cea05f6c6026bcc63b16bbf89fd5725c648c7ed63dbc49b822b07011"
+      "sha256": "e01cd70a4dfcf208c65eb7299a568644be54eeb57b6083c42094d18c69ab6164"
     }
   ]
 }
